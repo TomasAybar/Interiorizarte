@@ -55,10 +55,7 @@ body {
   body .contactos .contactos__card .contactos__map {
     display: none;
   }
-  body .contactos .contactos__card .contatos__form {
-    width: 75%;
-  }
-  body .contactos .contactos__card .w-25 {
+  body .contactos .contactos__card .contactos__form {
     width: 75%;
   }
   body .contactos .contactos__card .contactos__datos {

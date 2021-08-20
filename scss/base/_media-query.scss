@@ -73,8 +73,17 @@
 
                 .contactos__form {
 
+                    display: flex;
+                    justify-content: center;
+
                     div {
                         width: 75%;
+
+                        form {
+                            .row {
+                                justify-content: center;
+                            }
+                        }
                     }
                 }
 

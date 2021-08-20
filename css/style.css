@@ -55,8 +55,15 @@ body {
   body .contactos .contactos__card .contactos__map {
     display: none;
   }
+  body .contactos .contactos__card .contactos__form {
+    display: flex;
+    justify-content: center;
+  }
   body .contactos .contactos__card .contactos__form div {
     width: 75%;
+  }
+  body .contactos .contactos__card .contactos__form div form .row {
+    justify-content: center;
   }
   body .contactos .contactos__card .contactos__datos {
     margin-top: 30px;

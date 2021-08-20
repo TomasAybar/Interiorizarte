@@ -1,0 +1,90 @@
+.servicios { 
+    a {
+        text-decoration: none;
+
+        .servicios__titulo {
+            font-family: $subtitulo;
+            text-transform: uppercase;
+            // font-size: 1.5rem;
+            font-size: nth($font-size, 3);
+            letter-spacing: 4px;
+            color: map-get($colores, rosa);
+            margin: 15px;
+            display: inline-block; /* Para que el enlace no me ocupe todo el renglon */
+            
+            
+        }
+    } 
+      
+    .servicio {
+        // display: flex;
+        // justify-content: space-around;
+        // flex-wrap: wrap;
+        // align-items: center;
+
+        @include flex (flex, wrap, space-around, center);
+        width: 100%;
+
+        a {
+            .servicio__card {
+                height: 250px;
+                width: 250px;
+                border-radius: 50%;
+                // display: flex;
+                // justify-content: center;
+                // align-items: center; 
+                @include flex (flex, wrap, center, center);
+                margin: 30px 0;  
+                
+                .servicio__img {
+                    height: 250px;
+                    width: 250px;
+                    border-radius: 50%;
+                    position: relative;
+                    filter: blur(1.3px);
+                    
+                    opacity: 75%;
+                    transition: all .35s;
+                }
+
+                .servicio__titulo {
+                    position: absolute;
+                    font-family: $subtitulo;    
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    // font-size: 1.5em;
+                    font-size: nth($font-size, 3);   
+                    color: map-get($colores, violeta);
+                    margin: .7rem;
+                }
+            }
+        }
+
+        .servicio__card:hover .servicio__img {
+            transform: scale(1.12);
+            filter: blur(1.5px) grayscale(100%);
+        }
+
+        .servicio__card:hover .servicio__titulo {
+            color: #fff;
+        }
+    }
+    
+    .servicios__titulo:hover {
+        color: map-get($colores, naranja);
+    }   
+
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+

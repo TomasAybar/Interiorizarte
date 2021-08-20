@@ -1,0 +1,135 @@
+.trabajos {
+
+    
+
+    a {
+        text-decoration: none;
+
+        .trabajos__titulo {
+            font-family: $subtitulo;
+            text-transform: uppercase;
+            // font-size: 1.5rem;
+            font-size: nth($font-size, 3);
+            letter-spacing: 4px;
+            color: map-get($colores, rosa);
+            margin: 15px;
+            display: inline-block;
+            /* Para que el enlace no me ocupe todo el renglon */ 
+        }
+    }
+
+    .trabajo {
+        // display: flex;
+        // justify-content: space-around;
+        // flex-wrap: wrap;
+
+        @include flex (flex, wrap, space-around, center);
+        width: 100%;
+
+        .trabajo__card-1 {
+            // display: flex;
+            // flex-wrap: wrap;
+            // justify-content: space-around;
+            // align-items: center;
+
+            background-color: map-get($colores, blanco);
+            border-radius: 5px;
+
+            @include flex (flex, wrap, space-around, center);
+
+            .trabajo__card {
+                width: 500px;
+                margin: 20px 0;
+                padding: 1rem;
+                text-align: center;
+
+                .trabajo__img {
+                    width: 95%;
+                    border-radius: 4px;
+                }
+
+                .trabajo__info {
+                    font-family: $parrafo;
+                    // font-size: 1rem;
+                    font-size: nth($font-size, 5);
+                    color: map-get($colores, violeta);
+                    margin: .7rem;
+                }
+
+                .trabajo__btn {
+                    font-family: $parrafo;
+                    font-weight: bold;
+                    // font-size: 1rem;
+                    font-size: nth($font-size, 5);
+                    display: inline-block;
+                    padding: 10px 20px;
+                    margin: .2rem .7rem;
+                    color: #fff;
+                    background-color: map-get($colores, violeta);
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        .trabajo__card-2 {
+            // display: flex;
+            // flex-wrap: wrap;
+            // justify-content: space-around;
+            // align-items: center;
+
+            // background-color: #fae3ccaf;
+            // border-radius: 5px;
+
+            background-color: map-get($colores, blanco);
+            // border-radius: 5px;
+
+            @include flex (flex, wrap, space-around, center);
+
+            .trabajo__card {
+                width: 500px;
+                margin: 20px 0;
+                padding: 1rem;
+                text-align: center;
+
+                .trabajo__img-video {
+                    width: 95%;
+                    height: 250px;
+                    border-radius: 4px;
+                }
+
+                .trabajo__info {
+                    font-family: $parrafo;
+                    // font-size: 1rem;
+                    font-size: nth($font-size, 5);
+                    color: map-get($colores, violeta);
+                    margin: .7rem;
+                }
+
+                .trabajo__btn {
+                    font-family: $parrafo;
+                    font-weight: bold;
+                    // font-size: 1rem;
+                    font-size: nth($font-size, 5);
+                    display: inline-block;
+                    padding: 10px 20px;
+                    margin: .2rem .7rem;
+                    color: #fff;
+                    background-color: map-get($colores, violeta);
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+
+    .trabajos__titulo:hover {
+        color: map-get($colores, naranja);
+    }
+
+    .trabajo__btn:hover {
+        opacity: 90%;
+        outline: .5px solid #000000d0;
+        color: #fff;
+    }
+
+}

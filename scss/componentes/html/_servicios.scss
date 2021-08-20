@@ -1,0 +1,109 @@
+.main__servicios {
+    margin: 50px auto;
+
+    .main__servicios-titulo {
+        font-family: $subtitulo;
+        text-transform: uppercase;
+        // font-size: 2rem;
+        font-size: nth($font-size, 1);
+        letter-spacing: 5px;
+        color: map-get($colores, violeta);
+        text-align: center;
+    }
+
+    .main__servicios-card-1 {
+        // display: flex;
+        // flex-wrap: wrap;
+        // justify-content: space-around;
+        // align-items: center;
+        @include flex (flex, wrap, space-around, center);
+        margin: 10px 0;
+
+
+        .main__servicio {
+            width: 600px;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .main__servicio-subtitulo {
+                font-family: $subtitulo;
+                text-transform: uppercase;
+                // font-size: 1.5rem;
+                font-size: nth($font-size, 3);
+                letter-spacing: 4px;
+                color: map-get($colores, rosa);
+                margin: 15px;
+            }
+
+            .main__servicio-img {
+                width: 550px;
+                margin: 15px;
+                border-radius: 5px;
+            }
+
+            .main__servicio-info {
+                font-family: $parrafo;
+                // font-size: 1.2rem;
+                font-size: nth($font-size, 4);
+                color: map-get($colores, violeta);
+                padding: 0 20px;
+            }
+        }
+    }
+
+    .main__servicios-card-2 {
+        // display: flex;
+        // flex-wrap: wrap;
+        // justify-content: space-around;
+        // align-items: center;
+        @include flex (flex, wrap, space-around, center);
+        margin: 10px 0;
+
+        .main__servicio {
+            width: 600px;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .main__servicio-subtitulo {
+                font-family: $subtitulo;
+                text-transform: uppercase;
+                // font-size: 1.5rem;
+                font-size: nth($font-size, 3);
+                letter-spacing: 4px;
+                color: map-get($colores, rosa);
+                margin: 15px;
+            }
+
+            .main__servicio-img {
+                width: 550px;
+                margin: 15px;
+                border-radius: 5px;
+            }
+
+            .main__servicio-info {
+                font-family: $parrafo;
+                // font-size: 1.2rem;
+                font-size: nth($font-size, 4);
+                color: map-get($colores, violeta);
+                padding: 0 20px;
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

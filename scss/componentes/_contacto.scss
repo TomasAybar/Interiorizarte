@@ -1,0 +1,75 @@
+.contactos {
+    margin: 15px 0;
+
+    .contactos__titulo {
+        font-family: $subtitulo;
+        text-transform: uppercase;
+        // font-size: 1.5rem;
+        font-size: nth($font-size, 3);
+        letter-spacing: 4px;
+        color: map-get($colores, rosa);
+        margin: 15px;
+    }
+
+    .contactos__card {
+        // display: flex;
+        // justify-content: space-around;
+        // align-items: center;
+        // flex-wrap: wrap;
+        @include flex (flex, wrap, space-around, center);
+
+        .contactos__map {
+            margin-left: 15px;
+            border-radius: 4px;
+        }
+        .contactos__form {
+
+            .btn__color {
+                color: #fff;
+                background-color: map-get($colores, violeta);
+            }
+            
+            .btn:hover {
+                opacity: 90%;
+                outline: .5px solid #000000d0;
+                color: #fff;
+            }
+        }
+        .contactos__datos {
+            background-color: map-get($colores, blanco);
+            width: 450px;
+            height: 400px;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            @include flex (flex, wrap, center, center);
+            border-radius: 4px;
+
+            .contactos__datos-card {
+                background-color: #f4f4f4;
+                width: 90%;
+                text-align: center;
+
+                h3 {
+                    font-family: $subtitulo;
+                    text-transform: uppercase;
+                    // font-size: 1.2rem;
+                    font-size: nth($font-size, 4);
+                    letter-spacing: 2px;
+                    color: map-get($colores, naranja);
+                }
+
+                p {
+                    font-family: $parrafo;
+                    font-weight: bold;
+                    // font-size: 1rem;
+                    font-size: nth($font-size, 5);
+                    color: map-get($colores, violeta);
+                }
+            }
+        }
+
+    }
+}
+
+

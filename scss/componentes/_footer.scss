@@ -1,0 +1,59 @@
+.footer {
+    background-color: map-get($colores, logo);
+    height: 8rem;
+
+    .footer__card {
+        height: 100%;
+        padding: 0 5rem;
+        flex-direction: column;
+        // display: flex;
+        // flex-wrap: wrap;
+        // justify-content: center;
+        // align-items: center;
+
+        @include flex (flex, wrap, center, center);
+
+        .footer__titulo {
+            font-family: $subtitulo;
+            text-transform: uppercase;
+            text-align: center;
+            // font-size: .8rem;
+            font-size: nth($font-size, 6);
+            letter-spacing: 4px;
+            color: map-get($colores, violeta);
+            margin: 8px auto;
+        }
+
+        .footer__nav {
+             
+            
+            .footer__items {
+                // display: flex;
+                // flex-wrap: wrap;
+                // justify-content: space-around;
+
+                @include flex (flex, wrap, space-around, center);
+                list-style: none;
+                padding-left: 0;
+
+                a {
+                    text-decoration: none;
+                    padding: 0 5px;
+                }
+            }
+        }
+
+        .footer__copy {
+            color: map-get($colores, violeta);
+            font-family: $parrafo;
+        }
+    }
+
+}
+
+
+
+
+
+
+

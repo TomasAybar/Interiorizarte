@@ -1,0 +1,19 @@
+.home {
+    background-image: linear-gradient(#463a443b,#965a7a32), url("images/home.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    .home__titulo {
+        font-family: $subtitulo;
+        text-transform: uppercase;
+        // font-size: 2rem;
+        font-size: nth($font-size, 1);
+        letter-spacing: 5px;
+        color: map-get($colores, violeta);
+        color: #ffffffd2;
+        text-align: center;  
+        padding: 100px 0; 
+    }
+}

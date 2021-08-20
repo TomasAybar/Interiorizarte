@@ -1,0 +1,45 @@
+.sobre-mi {
+    margin: 25px 0;
+
+    .sobre-mi__titulo {
+        font-family: $subtitulo;
+        text-transform: uppercase;
+        // font-size: 1.5rem;
+        font-size: nth($font-size, 3);
+        letter-spacing: 4px;
+        color: map-get($colores, rosa);
+        margin: 15px;  
+    }
+
+    .sobre-mi__card {
+        // display: flex;
+        // flex-wrap: wrap;
+        flex-direction: row-reverse;
+        // justify-content: center;
+        @include flex (flex, wrap, center, center);
+        margin: 15px; 
+        
+        .sobre-mi__img {
+            height: 600px;
+            // width: 400px;
+            margin: 0 40px;
+            // outline: 3px solid map-get($colores, rosa);
+            border-radius: 2%;
+        }
+        
+        .sobre-mi__info {
+            font-family: $parrafo;
+            // font-size: 1.7rem;
+            font-size: nth($font-size, 2);
+            color: map-get($colores, rosa);
+            margin: 15px;
+            height: 600px;
+            width: 500px;
+            padding: 1rem;
+            text-align: left;
+            overflow: hidden;
+        }
+    }
+}
+
+

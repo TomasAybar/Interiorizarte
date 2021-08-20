@@ -1,0 +1,96 @@
+.main__trabajos {
+    margin: 50px auto;
+
+    .main__trabajos-titulo {
+        font-family: $subtitulo;
+        text-transform: uppercase;
+        // font-size: 2rem;
+        font-size: nth($font-size, 1);
+        letter-spacing: 5px;
+        color: map-get($colores, violeta);
+        text-align: center;
+    }
+
+    .main__trabajo-grid {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: "img img img"
+            "video video video";
+
+
+        .main__trabajo-card-1 {
+            
+            @include flex (flex, wrap, space-around, center); // MIXIN
+            grid-area: img;
+
+            .main__trabajo {
+                width: 600px;
+                text-align: center;
+                margin: 40px auto;
+
+                .main__trabajo-subtitulo {
+                    font-family: $subtitulo;
+                    text-transform: uppercase;
+                    font-size: nth($font-size, 3); // LISTA
+                    letter-spacing: 4px;
+                    color: map-get($colores, rosa); // MAPA
+                    margin: 15px;
+                }
+
+                .main__trabajo-info {
+                    font-family: $parrafo;
+                    font-size: nth($font-size, 4); // LISTA
+                    color: map-get($colores, violeta); // MAPA
+                    padding: 0 20px;
+                }
+            }
+        }
+
+        .main__trabajo-card-2 {
+            // display: flex;
+            // flex-wrap: wrap;
+            // justify-content: space-around;
+            // align-items: center;
+            @include flex (flex, wrap, space-around, center);
+            grid-area: video;
+
+            .main__trabajo {
+                width: 600px;
+                text-align: center;
+                margin: 40px auto;
+
+                .main__trabajo-subtitulo {
+                    font-family: $subtitulo;
+                    text-transform: uppercase;
+                    // font-size: 1.5rem;
+                    font-size: nth($font-size, 3);
+                    letter-spacing: 4px;
+                    color: map-get($colores, rosa);
+                    margin: 15px;
+                }
+
+                .main__trabajo-video {
+                    width: 550px;
+                    height: 330px;
+                    // margin: 15px;
+                }
+
+                .main__trabajo-info {
+                    font-family: $parrafo;
+                    // font-size: 1.2rem;
+                    font-size: nth($font-size, 4);
+                    color: map-get($colores, violeta);
+                    padding: 0 20px;
+                }
+            }
+        }
+
+    }
+
+}
+
+
+
+

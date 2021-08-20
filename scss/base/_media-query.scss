@@ -72,7 +72,10 @@
                 }
 
                 .contactos__form {
-                    width: 75%;
+
+                    div {
+                        width: 75%;
+                    }
                 }
 
                 .contactos__datos {

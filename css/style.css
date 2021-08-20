@@ -62,7 +62,7 @@ body {
   body .contactos .contactos__card .contactos__form div {
     width: 75%;
   }
-  body .contactos .contactos__card .contactos__form div form .row {
+  body .contactos .contactos__card .contactos__form div .row {
     justify-content: center;
   }
   body .contactos .contactos__card .contactos__datos {
@@ -181,6 +181,16 @@ body {
   body .contactos .contactos__card .contactos__map {
     display: none;
   }
+  body .contactos .contactos__card .contactos__form {
+    display: flex;
+    justify-content: center;
+  }
+  body .contactos .contactos__card .contactos__form div {
+    width: 90%;
+  }
+  body .contactos .contactos__card .contactos__form div .row {
+    justify-content: center;
+  }
   body .contactos .contactos__card .contactos__datos {
     margin-top: 30px;
     width: 400px;
@@ -257,6 +267,11 @@ body {
   }
 }
 /* DESKTOP */
+@media screen and (min-width: 769px) {
+  body .contactos .contactos__card .contactos__form {
+    width: 25%;
+  }
+}
 .header {
   background-color: #fffffff5;
   box-shadow: 0px 3px 5px 0px #616161bf;

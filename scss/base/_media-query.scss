@@ -79,11 +79,10 @@
                     div {
                         width: 75%;
 
-                        form {
                             .row {
                                 justify-content: center;
                             }
-                        }
+                        
                     }
                 }
 
@@ -293,6 +292,21 @@
                 .contactos__map {
                     display: none;
                 }
+                
+                .contactos__form {
+
+                    display: flex;
+                    justify-content: center;
+
+                    div {
+                        width: 90%;
+
+                            .row {
+                                justify-content: center;
+                            }
+                        
+                    }
+                }
 
                 .contactos__datos {
                     margin-top: 30px;
@@ -431,9 +445,17 @@
 }
 
 /* DESKTOP */
-// @media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) {
 
-//     body {
-//         // background-color: green;
-//     }
-// }
+     body {
+         .contactos {
+             .contactos__card {
+                .contactos__form {
+
+                    width: 25%;
+ 
+                }
+             }
+         }
+     }
+ }

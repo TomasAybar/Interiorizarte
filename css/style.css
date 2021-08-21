@@ -30,10 +30,12 @@ body {
     text-align: center;
   }
   body .sobre-mi .sobre-mi__card .sobre-mi__img {
-    height: 450px;
+    height: 400px;
   }
   body .sobre-mi .sobre-mi__card .sobre-mi__info {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
+    margin: 0;
+    height: auto;
   }
   body .trabajos a {
     display: flex;
@@ -138,7 +140,7 @@ body {
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-video {
     width: 300px;
     height: 250px;
-    margin: 15px;
+    margin-top: 15px;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-info {
     font-size: 1rem;
@@ -260,7 +262,7 @@ body {
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-video {
     width: 450px;
     height: 230px;
-    margin: 15px;
+    margin-top: 15px;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-info {
     font-size: 1.2rem;
@@ -308,6 +310,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  margin-bottom: 2rem;
 }
 .home .home__titulo {
   font-family: "Montserrat", sans-serif;
@@ -674,7 +677,7 @@ body {
   font-size: 1.5rem;
   letter-spacing: 4px;
   color: #965A7A;
-  margin: 15px;
+  margin: 0;
 }
 .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-video {
   width: 550px;

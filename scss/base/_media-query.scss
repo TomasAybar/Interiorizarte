@@ -25,11 +25,13 @@
             .sobre-mi__card {
 
                 .sobre-mi__img {
-                    height: 450px;
+                    height: 400px;
                 }
 
                 .sobre-mi__info {
-                    font-size: nth($font-size, 3);
+                    font-size: nth($font-size, 8);
+                    margin: 0;
+                    height: auto;
                 }
 
             }
@@ -186,7 +188,7 @@
                         }
                         
                         .main__trabajo-info {
-                           
+                            // margin-top: 15px;
                             font-size: nth($font-size, 5);  
                         }
                         
@@ -207,11 +209,12 @@
                         .main__trabajo-video {
                             width: 300px;
                             height: 250px;
-                            margin: 15px;
+                            // margin: 15px;
+                            margin-top: 15px;
                         }
 
                         .main__trabajo-info {
-                           
+                            
                             font-size: nth($font-size, 5);  
                         }
                         
@@ -426,7 +429,8 @@
 
                             width: 450px;
                             height: 230px;
-                            margin: 15px;
+                            // margin: 15px;
+                            margin-top: 15px;
 
                         }
 

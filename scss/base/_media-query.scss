@@ -90,7 +90,7 @@
 
                 .contactos__datos {
                     margin-top: 30px;
-                    width: 300px;
+                    width: 100%;
                     height: 250px;
 
                     .contactos__datos-card {
@@ -313,8 +313,8 @@
 
                 .contactos__datos {
                     margin-top: 30px;
-                    width: 400px;
-                    height: 350px;
+                    width: 100%;
+                    height: 250px;
 
                     .contactos__datos-card {
                         width: 80%;
@@ -449,17 +449,313 @@
 }
 
 /* DESKTOP */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) and (max-width:900px) {
 
      body {
+
+        // background-color: rgba(255, 0, 0, 0.377);
+
+        .home {
+            .home__titulo {
+                font-size: nth($font-size, 2);
+            }
+        }
+
+        .servicios {
+            a {
+                display: flex;
+                justify-content: center;
+            }
+
+            .servicio {
+                a {
+                    .servicio__card {
+                        height: 190px;
+                        width: 190px;
+
+                        .servicio__img {
+                            height: 190px;
+                            width: 190px;
+                        }
+
+                        .servicio__titulo {
+                            font-size: nth($font-size, 4);
+                        }
+                    }
+                }
+            }
+        }
+         
+        .sobre-mi {
+            .sobre-mi__titulo {
+                text-align: center;
+            }
+
+            .sobre-mi__card {
+                @include flex (flex, nowrap, center, center);
+                
+                .sobre-mi__img {
+                    height: 420px;
+                }
+
+                .sobre-mi__info {
+                    font-size: nth($font-size, 4);
+                    height: 450px;
+                    width: 400px;
+                }
+            }
+        }
+
+        .trabajos {
+            a {
+                display: flex;
+                justify-content: center;
+            }
+
+            .trabajo {
+                .trabajo__card-1 {
+                    .trabajo__card {
+                        width: 400px;
+                        margin: 10px 0;
+                        padding: 0.8rem;
+                    }
+                }
+
+                .trabajo__card-2 {
+                    .trabajo__card {
+                        width: 400px;
+                    }
+                }
+            }
+        }
+
          .contactos {
+
+            .contactos__titulo {
+                text-align: center;
+            }
              .contactos__card {
+
+                .contactos__map {
+                    display: none;
+                }
                 .contactos__form {
 
-                    width: 25%;
+                    display: flex;
+                    justify-content: center;
+
+                    div {
+                        width: 90%;
+
+                            .row {
+                                justify-content: center;
+                            }
+                        
+                    }
  
+                }
+
+                .contactos__datos {
+                    margin-top: 30px;
+                    width: 100%;
+                    height: 250px;
+
+                    .contactos__datos-card {
+                        width: 80%;
+
+                        h3 {
+                            font-size: nth($font-size, 4);
+                            letter-spacing: 1.2px;
+                        }
+
+                        p {
+                            font-size: nth($font-size, 5); 
+                        }
+                    }
                 }
              }
          }
      }
  }
+
+
+@media screen and (min-width: 901px) and (max-width:1366px) {
+    body {
+        // background-color: orange;
+
+        .servicios {
+            
+            .servicio {
+                a {
+                    .servicio__card {
+                        height: 230px;
+                        width: 230px;
+
+                        .servicio__img {
+                            height: 230px;
+                            width: 230px;
+                        }
+
+                        .servicio__titulo {
+                            font-size: nth($font-size, 4);
+                        }
+                    }
+                }
+            }
+        }
+
+        .sobre-mi {
+            
+            .sobre-mi__card {
+                @include flex (flex, nowrap, center, center);
+                
+                .sobre-mi__img {
+                    height: 520px;
+                }
+
+                .sobre-mi__info {
+                    font-size: nth($font-size, 3);
+                    height: 520px;
+                    width: 420px;
+                }
+            }
+        }
+
+        .trabajos {
+            
+            .trabajo {
+                .trabajo__card-1 {
+                    .trabajo__card {
+                        width: 450px;
+                        margin: 15px 0;
+                        padding: 0.8rem;
+                    }
+                }
+
+                .trabajo__card-2 {
+                    .trabajo__card {
+                        width: 450px;
+                    }
+                }
+            }
+        }
+
+        .contactos {
+
+             .contactos__card {
+
+                @include flex (flex, wrap, center, center);
+                flex-direction: column;
+
+                .contactos__card-mapform {
+                    @include flex (flex, nowrap, space-around, center);
+                    
+                }
+                .contactos__map {
+
+                    margin-left: 200px;
+
+                    iframe {
+                        width: 400px;
+                        height: 500px;
+                    }
+                }
+                .contactos__form {
+
+                    display: flex;
+                    justify-content: center;
+
+                    div {
+                        width: 60%;
+
+                            .row {
+                                justify-content: center;
+                                // width: 95%;
+                            } 
+                    }
+ 
+                }
+
+                .contactos__datos {
+                    margin-top: 30px;
+                    width: 100%;
+                    height: 250px;
+                    border-radius: 0;
+
+                    .contactos__datos-card {
+                        width: 80%;
+
+                        h3 {
+                            font-size: nth($font-size, 4);
+                            letter-spacing: 1.2px;
+                        }
+
+                        p {
+                            font-size: nth($font-size, 5); 
+                        }
+                    }
+                }
+             }
+         }
+    }
+}
+
+
+@media screen and (min-width: 1367px) and (max-width:1680px) {
+    body {
+        // background-color: rgba(220, 20, 60, 0.425);
+
+        .contactos {
+            .contactos__card {
+                display: flex;
+                flex-direction: column;
+                .contactos__card-mapform {
+                    width: 100%;
+                    .contactos__map {
+                        margin-left: 0;
+                        iframe {
+                            width: 100%;
+                            // border-radius: 5px;
+                            
+                        }
+                    }
+
+                }
+
+                .contactos__datos {
+                    margin-top: 30px;
+                    width: 100%;
+                    height: 300px;
+                    border-radius: 0;
+
+                    .contactos__datos-card {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1681px){
+    body {
+        .contactos {
+            margin-top: 40px;
+            margin-bottom: 30px;
+            .contactos__card {
+                width: 100%;
+                @include flex  (flex, nowrap, space-around, center);
+
+                .contactos__card-mapform {
+                    width: 66%;
+                    @include flex (flex, nowrap, center, center);
+                    
+                    .contactos__map {
+                        margin-right: 60px;
+                    }
+                }
+            }
+        }
+    }
+}

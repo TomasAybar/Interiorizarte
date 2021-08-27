@@ -87,30 +87,30 @@ body {
   }
 
   body .main__servicios .main__servicios-titulo {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
   }
   body .main__servicios .main__servicios-card-1 .main__servicio {
-    width: 400px;
+    width: 300px;
     margin: 5px auto;
   }
   body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-subtitulo {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-img {
-    width: 350px;
+    width: 250px;
   }
   body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-info {
     font-size: 1rem;
   }
   body .main__servicios .main__servicios-card-2 .main__servicio {
-    width: 400px;
+    width: 300px;
     margin: 5px auto;
   }
   body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-subtitulo {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-img {
-    width: 350px;
+    width: 250px;
   }
   body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-info {
     font-size: 1rem;
@@ -118,32 +118,36 @@ body {
 
   body .main__trabajos .main__trabajos-titulo {
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo {
-    width: 300px;
+    width: 280px;
     margin: 10px auto;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo .main__trabajo-subtitulo {
+    font-size: 1rem;
     text-align: center;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo .main__trabajo-info {
     font-size: 1rem;
+    padding: 10px 0 0 0;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo {
-    width: 300px;
+    width: 320px;
     margin: 10px auto;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-subtitulo {
+    font-size: 1rem;
     text-align: center;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-video {
-    width: 300px;
-    height: 250px;
+    width: 320px;
+    height: 200px;
     margin-top: 15px;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-info {
     font-size: 1rem;
+    padding: 10px 0 0 0;
   }
 }
 /* TABLET */
@@ -210,62 +214,67 @@ body {
   }
 
   body .main__servicios .main__servicios-titulo {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   body .main__servicios .main__servicios-card-1 .main__servicio {
-    width: 500px;
+    width: 380px;
     margin: 5px auto;
   }
   body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-subtitulo {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-img {
-    width: 450px;
+    width: 330px;
   }
   body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-info {
     font-size: 1.2rem;
   }
   body .main__servicios .main__servicios-card-2 .main__servicio {
-    width: 500px;
+    width: 380px;
     margin: 5px auto;
   }
   body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-subtitulo {
     font-size: 1.2rem;
   }
   body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-img {
-    width: 450px;
+    width: 330px;
   }
   body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-info {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   body .main__trabajos .main__trabajos-titulo {
     text-align: center;
+    font-size: 1.5rem;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo {
-    width: 450px;
+    width: 350px;
     margin: 10px auto;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo .main__trabajo-subtitulo {
+    font-size: 1.2rem;
     text-align: center;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo .main__trabajo-info {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding: 10px 0 0 0;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo {
-    width: 450px;
+    width: 350px;
     margin: 10px auto;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-subtitulo {
+    font-size: 1rem;
     text-align: center;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-video {
-    width: 450px;
-    height: 230px;
+    width: 360px;
+    height: 190px;
     margin-top: 15px;
   }
   body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-info {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding: 10px 0 0 0;
   }
 }
 /* DESKTOP */
@@ -348,6 +357,73 @@ body {
   body .contactos .contactos__card .contactos__datos .contactos__datos-card p {
     font-size: 1rem;
   }
+
+  body {
+    background-color: #892be273;
+  }
+  body .main__servicios .main__servicios-titulo {
+    font-size: 1.5rem;
+  }
+  body .main__servicios .main__servicios-card-1 .main__servicio {
+    width: 420px;
+  }
+  body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-subtitulo {
+    font-size: 1.2rem;
+  }
+  body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-img {
+    width: 370px;
+  }
+  body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-info {
+    font-size: 1.2rem;
+  }
+  body .main__servicios .main__servicios-card-2 .main__servicio {
+    width: 420px;
+  }
+  body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-subtitulo {
+    font-size: 1.2rem;
+  }
+  body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-img {
+    width: 370px;
+  }
+  body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-info {
+    font-size: 1.2rem;
+  }
+
+  body {
+    background-color: honeydew;
+  }
+  body .main__trabajos .main__trabajos-titulo {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo {
+    width: 350px;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo .main__trabajo-subtitulo {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo .main__trabajo-info {
+    font-size: 1rem;
+    padding: 10px 0 0 0;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo {
+    width: 380px;
+    margin: 10px auto;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-subtitulo {
+    font-size: 1rem;
+    text-align: center;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-video {
+    width: 390px;
+    height: 220px;
+    margin-top: 15px;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-info {
+    font-size: 1rem;
+    padding: 10px 0 0 0;
+  }
 }
 @media screen and (min-width: 901px) and (max-width: 1366px) {
   body .servicios .servicio a .servicio__card {
@@ -429,6 +505,72 @@ body {
   body .contactos .contactos__card .contactos__datos .contactos__datos-card p {
     font-size: 1rem;
   }
+
+  body {
+    background-color: #00008b41;
+  }
+  body .main__servicios .main__servicios-titulo {
+    font-size: 1.5rem;
+  }
+  body .main__servicios .main__servicios-card-1 .main__servicio {
+    width: 450px;
+  }
+  body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-subtitulo {
+    font-size: 1.2rem;
+  }
+  body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-img {
+    width: 400px;
+  }
+  body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-info {
+    font-size: 1.2rem;
+  }
+  body .main__servicios .main__servicios-card-2 .main__servicio {
+    width: 450px;
+  }
+  body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-subtitulo {
+    font-size: 1.2rem;
+  }
+  body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-img {
+    width: 400px;
+  }
+  body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-info {
+    font-size: 1.2rem;
+  }
+
+  body {
+    background-color: indianred;
+  }
+  body .main__trabajos .main__trabajos-titulo {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo {
+    width: 450px;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo .main__trabajo-subtitulo {
+    font-size: 1.5rem;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo .main__trabajo-info {
+    font-size: 1.2rem;
+    padding: 10px 0 0 0;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo {
+    width: 430px;
+    margin: 10px auto;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-subtitulo {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-video {
+    width: 430px;
+    height: 230px;
+    margin-top: 15px;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-2 .main__trabajo .main__trabajo-info {
+    font-size: 1.2rem;
+    padding: 10px 0 0 0;
+  }
 }
 @media screen and (min-width: 1367px) and (max-width: 1680px) {
   body .contactos .contactos__card {
@@ -453,6 +595,26 @@ body {
   body .contactos .contactos__card .contactos__datos .contactos__datos-card {
     width: 100%;
   }
+
+  body .main__trabajos .main__trabajos-titulo {
+    font-size: 1.7rem;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo {
+    width: 450px;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo .main__trabajo-subtitulo {
+    font-size: 1.5rem;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo .main__trabajo-info {
+    font-size: 1.2rem;
+    padding: 10px 0 0 0;
+  }
+  body .main__trabajos .main__trabajo-card-2 .main__trabajo .main__trabajo-video {
+    margin-top: 15px;
+  }
+  body .main__trabajos .main__trabajo-card-2 .main__trabajo .main__trabajo-info {
+    padding: 10px 0 0 0;
+  }
 }
 @media screen and (min-width: 1681px) {
   body .contactos {
@@ -475,6 +637,26 @@ body {
   }
   body .contactos .contactos__card .contactos__card-mapform .contactos__map {
     margin-right: 60px;
+  }
+
+  body .main__trabajos .main__trabajos-titulo {
+    font-size: 1.7rem;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo {
+    width: 550px;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo .main__trabajo-subtitulo {
+    font-size: 1.5rem;
+  }
+  body .main__trabajos .main__trabajo-grid .main__trabajo-card-1 .main__trabajo .main__trabajo-info {
+    font-size: 1.2rem;
+    padding: 10px 0 0 0;
+  }
+  body .main__trabajos .main__trabajo-card-2 .main__trabajo .main__trabajo-video {
+    margin-top: 15px;
+  }
+  body .main__trabajos .main__trabajo-card-2 .main__trabajo .main__trabajo-info {
+    padding: 10px 0 0 0;
   }
 }
 .header {

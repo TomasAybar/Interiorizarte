@@ -126,7 +126,6 @@
 
     // servicios.html
     body {
-        // background-color: red;
         .main__servicios {
             .main__servicios-titulo {
                 font-size: nth($font-size, 4);
@@ -338,7 +337,6 @@
 
     // servicios.html
     body {
-        // background-color: gray;
         .main__servicios {
             .main__servicios-titulo {
                 font-size: nth($font-size, 3);
@@ -450,8 +448,6 @@
 
     // index.html
      body {
-
-        // background-color: rgba(255, 0, 0, 0.377);
 
         .home {
             .home__titulo {
@@ -577,7 +573,7 @@
 
      // servicios.html
      body {
-         background-color: #892be273;
+        
          .main__servicios {
              .main__servicios-titulo {
                  font-size: nth($font-size, 3);
@@ -620,7 +616,7 @@
 
     //  trabajo.html
     body {
-        background-color: honeydew;
+      
         .main__trabajos {
 
             .main__trabajos-titulo {
@@ -680,7 +676,6 @@
 
     // index.html
     body {
-        // background-color: orange;
 
         .servicios {
             
@@ -800,7 +795,7 @@
 
     // servicios.html
     body {
-        background-color: #00008b41;
+        
         .main__servicios {
             .main__servicios-titulo {
                 font-size: nth($font-size, 3);
@@ -842,7 +837,7 @@
 
     // trabajos.html
     body {
-        background-color: indianred;
+        
         .main__trabajos {
 
             .main__trabajos-titulo {
@@ -900,8 +895,7 @@
 
     // index.html
     body {
-        // background-color: rgba(220, 20, 60, 0.425);
-
+        
         .contactos {
             .contactos__card {
                 display: flex;

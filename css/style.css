@@ -358,9 +358,6 @@ body {
     font-size: 1rem;
   }
 
-  body {
-    background-color: #892be273;
-  }
   body .main__servicios .main__servicios-titulo {
     font-size: 1.5rem;
   }
@@ -389,9 +386,6 @@ body {
     font-size: 1.2rem;
   }
 
-  body {
-    background-color: honeydew;
-  }
   body .main__trabajos .main__trabajos-titulo {
     text-align: center;
     font-size: 1.5rem;
@@ -506,9 +500,6 @@ body {
     font-size: 1rem;
   }
 
-  body {
-    background-color: #00008b41;
-  }
   body .main__servicios .main__servicios-titulo {
     font-size: 1.5rem;
   }
@@ -537,9 +528,6 @@ body {
     font-size: 1.2rem;
   }
 
-  body {
-    background-color: indianred;
-  }
   body .main__trabajos .main__trabajos-titulo {
     text-align: center;
     font-size: 1.7rem;

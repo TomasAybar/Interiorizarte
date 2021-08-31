@@ -19,6 +19,9 @@ body {
 
 /* MOBILE */
 @media screen and (max-width: 480px) {
+  body .header .navbar .navbar-collapse .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
   body .home .home__titulo {
     font-size: 1.7rem;
   }
@@ -86,6 +89,9 @@ body {
     font-size: 0.6rem;
   }
 
+  body .header .navbar .navbar-collapse .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
   body .main__servicios .main__servicios-titulo {
     font-size: 1.2rem;
   }
@@ -116,6 +122,9 @@ body {
     font-size: 1rem;
   }
 
+  body .header .navbar .navbar-collapse .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
   body .main__trabajos .main__trabajos-titulo {
     text-align: center;
     font-size: 1.2rem;
@@ -654,11 +663,21 @@ body {
 .header .navbar {
   flex-wrap: nowrap;
 }
+.header .navbar .container-fluid .navbar-brand .header__logo {
+  width: 120px;
+}
+.header .navbar .container-fluid .container-flex {
+  display: flex;
+  align-items: center;
+}
 .header .navbar .navbar-collapse {
   flex-grow: 0;
 }
 .header .navbar .navbar-collapse .navbar-nav {
   padding-left: 50px;
+}
+.header .navbar .navbar-collapse .navbar-nav .nav__item {
+  display: inline-block;
 }
 .header .navbar .navbar-collapse .navbar-nav .nav-link {
   color: #857A58;

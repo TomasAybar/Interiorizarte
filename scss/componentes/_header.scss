@@ -4,6 +4,18 @@
 
     .navbar {
         flex-wrap: nowrap;
+
+        .container-fluid {
+            .navbar-brand {
+                .header__logo {
+                    width: 120px;
+                }
+            }
+            .container-flex {
+                display: flex;
+                align-items: center;
+            }
+        }
         
         .navbar-collapse {
             flex-grow: 0;
@@ -11,7 +23,11 @@
             .navbar-nav {
 
                 padding-left: 50px;
-                
+             
+                .nav__item {
+                    display: inline-block;
+                }
+
                 .nav-link {
                     color: map-get($colores, mostaza);
                     font-family: $titulo;

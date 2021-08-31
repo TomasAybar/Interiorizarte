@@ -4,6 +4,18 @@
     // index.html
     body {
         
+        .header {
+            .navbar {
+                .navbar-collapse {
+                    .navbar-nav {
+                        .nav-link {
+                            font-size: nth($font-size, 5);
+                        }
+                    }
+                }
+            }
+        }
+
         .home {
             .home__titulo {
                 font-size: nth($font-size, 2);
@@ -126,6 +138,19 @@
 
     // servicios.html
     body {
+
+        .header {
+            .navbar {
+                .navbar-collapse {
+                    .navbar-nav {
+                        .nav-link {
+                            font-size: nth($font-size, 5);
+                        }
+                    }
+                }
+            }
+        }
+
         .main__servicios {
             .main__servicios-titulo {
                 font-size: nth($font-size, 4);
@@ -169,6 +194,19 @@
 
     // trabajos.html
     body {
+
+        .header {
+            .navbar {
+                .navbar-collapse {
+                    .navbar-nav {
+                        .nav-link {
+                            font-size: nth($font-size, 5);
+                        }
+                    }
+                }
+            }
+        }
+
         .main__trabajos {
             .main__trabajos-titulo {
                 text-align: center;

@@ -489,13 +489,13 @@
                 @include flex (flex, nowrap, center, center);
                 
                 .sobre-mi__img {
-                    height: 420px;
+                    height: 400px;
                 }
 
                 .sobre-mi__info {
                     font-size: nth($font-size, 4);
                     height: 450px;
-                    width: 400px;
+                    width: 350px;
                 }
             }
         }
@@ -691,7 +691,7 @@
                         }
 
                         .servicio__titulo {
-                            font-size: nth($font-size, 4);
+                            font-size: nth($font-size, 2);
                         }
                     }
                 }
@@ -704,13 +704,13 @@
                 @include flex (flex, nowrap, center, center);
                 
                 .sobre-mi__img {
-                    height: 520px;
+                    height: 480px;
                 }
 
                 .sobre-mi__info {
-                    font-size: nth($font-size, 3);
-                    height: 520px;
-                    width: 420px;
+                    font-size: nth($font-size, 8);
+                    height: 530px;
+                    width: 350px;
                 }
             }
         }

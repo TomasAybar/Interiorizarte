@@ -307,12 +307,12 @@ body {
     align-items: center;
   }
   body .sobre-mi .sobre-mi__card .sobre-mi__img {
-    height: 420px;
+    height: 400px;
   }
   body .sobre-mi .sobre-mi__card .sobre-mi__info {
     font-size: 1.2rem;
     height: 450px;
-    width: 400px;
+    width: 350px;
   }
   body .trabajos a {
     display: flex;
@@ -429,7 +429,7 @@ body {
     width: 230px;
   }
   body .servicios .servicio a .servicio__card .servicio__titulo {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
   body .sobre-mi .sobre-mi__card {
     display: flex;
@@ -438,12 +438,12 @@ body {
     align-items: center;
   }
   body .sobre-mi .sobre-mi__card .sobre-mi__img {
-    height: 520px;
+    height: 480px;
   }
   body .sobre-mi .sobre-mi__card .sobre-mi__info {
-    font-size: 1.5rem;
-    height: 520px;
-    width: 420px;
+    font-size: 1.35rem;
+    height: 530px;
+    width: 350px;
   }
   body .trabajos .trabajo .trabajo__card-1 .trabajo__card {
     width: 450px;

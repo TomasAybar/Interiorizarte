@@ -108,6 +108,10 @@ body {
   body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-info {
     font-size: 1rem;
   }
+  body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-btn {
+    font-size: 0.8rem;
+    padding: 8px 15px;
+  }
   body .main__servicios .main__servicios-card-2 .main__servicio {
     width: 300px;
     margin: 5px auto;
@@ -120,6 +124,10 @@ body {
   }
   body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-info {
     font-size: 1rem;
+  }
+  body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-btn {
+    font-size: 0.8rem;
+    padding: 8px 15px;
   }
 
   body .header .navbar .navbar-collapse .navbar-nav .nav-link {
@@ -238,6 +246,10 @@ body {
   body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-info {
     font-size: 1.2rem;
   }
+  body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-btn {
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
   body .main__servicios .main__servicios-card-2 .main__servicio {
     width: 380px;
     margin: 5px auto;
@@ -250,6 +262,10 @@ body {
   }
   body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-info {
     font-size: 1.2rem;
+  }
+  body .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-btn {
+    font-size: 1rem;
+    padding: 10px 15px;
   }
 
   body .main__trabajos .main__trabajos-titulo {
@@ -1125,6 +1141,18 @@ body {
   color: #463A44;
   padding: 0 20px;
 }
+.main__servicios .main__servicios-card-1 .main__servicio .main__servicio-btn {
+  display: inline-block;
+  background-color: #ce7d35;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 25px;
+}
+.main__servicios .main__servicios-card-1 .main__servicio .main__servicio-btn:hover {
+  background-color: #ce7c35ef;
+  outline: 0.5px solid #00000048;
+}
 .main__servicios .main__servicios-card-2 {
   display: flex;
   flex-wrap: wrap;
@@ -1158,6 +1186,19 @@ body {
   font-size: 1.2rem;
   color: #463A44;
   padding: 0 20px;
+}
+.main__servicios .main__servicios-card-2 .main__servicio .main__servicio-btn {
+  display: inline-block;
+  background-color: #ce7d35;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+}
+.main__servicios .main__servicios-card-2 .main__servicio .main__servicio-btn:hover {
+  background-color: #ce7c35ef;
+  outline: 0.5px solid #00000048;
 }
 
 /*# sourceMappingURL=style.css.map */

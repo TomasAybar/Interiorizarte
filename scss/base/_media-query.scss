@@ -170,6 +170,10 @@
                     .main__servicio-info {
                         font-size: nth($font-size, 5);
                     }
+                    .main__servicio-btn {
+                        font-size: nth($font-size, 6);
+                        padding: 8px 15px;
+                    }
                 }
             }
 
@@ -186,6 +190,10 @@
                     }
                     .main__servicio-info {
                         font-size: nth($font-size, 5);
+                    }
+                    .main__servicio-btn {
+                        font-size: nth($font-size, 6);
+                        padding: 8px 15px;
                     }
                 }
             }
@@ -394,6 +402,10 @@
                     .main__servicio-info {
                         font-size: nth($font-size, 4);
                     }
+                    .main__servicio-btn {
+                        font-size: nth($font-size, 5);
+                        padding: 10px 15px;
+                    }
                 }
             }
 
@@ -410,6 +422,10 @@
                     }
                     .main__servicio-info {
                         font-size: nth($font-size, 4);
+                    }
+                    .main__servicio-btn {
+                        font-size: nth($font-size, 5);
+                        padding: 10px 15px;
                     }
                 }
             }

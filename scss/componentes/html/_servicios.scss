@@ -51,6 +51,22 @@
                 color: map-get($colores, violeta);
                 padding: 0 20px;
             }
+
+            .main__servicio-btn {
+                display: inline-block;
+                background-color: map-get($colores, naranja);
+                font-family: $subtitulo;
+                text-decoration: none;
+                color: #fff;
+                padding: 10px 25px;
+
+                &:hover {
+                    // background-color: #EDFFD9;
+                    // transition: 2s;
+                    background-color: #ce7c35ef;
+                    outline: .5px solid #00000048;
+                }
+            }
         }
     }
 
@@ -93,6 +109,25 @@
                 color: map-get($colores, violeta);
                 padding: 0 20px;
             }
+
+            .main__servicio-btn {
+                display: inline-block;
+                background-color: map-get($colores, naranja);
+                font-family: $subtitulo;
+                text-decoration: none;
+                // font-size: nth($font-size, 6);
+                color: #fff;
+                padding: 10px 25px;
+                margin-bottom: 10px;
+
+                &:hover {
+                    // background-color: #EDFFD9;
+                    // transition: 2s;
+                    background-color: #ce7c35ef;
+                    outline: .5px solid #00000048;
+                }
+            }
+            
         }
     }
 

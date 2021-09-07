@@ -1,11 +1,11 @@
 {
-  "name": "proyecto__sass",
+  "name": "interiorizarte",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "TomasAybar",
   "license": "ISC",
-  "description": ""
+  "description": "Diseño de interiores, dale una nueva vida a tu casa, encuentra el confort en un espacio diseñado a tu medida, asesoramiento desde el primer día hasta el último con precios super accesibles!"
 }

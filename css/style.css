@@ -1041,6 +1041,7 @@ body {
 .footer .footer__card .footer__copy {
   color: #463A44;
   font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
 }
 
 .main__trabajos {

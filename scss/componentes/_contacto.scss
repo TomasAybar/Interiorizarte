@@ -35,6 +35,32 @@
                 color: #fff;
             }
         }
+        .modal {
+            .modal-dialog {
+                .modal-content {
+                    .modal-header {
+                        h5 {
+                            font-family: $titulo;
+                            color: map-get($colores, violeta);
+                            font-size: 1.3rem;
+                        }
+                    }
+                    .modal-body {
+                        p {
+                            font-family: $subtitulo;
+                            font-size: .85rem;
+                            color: map-get($colores, violeta);
+                        }
+                    }
+                    .modal-footer {
+                        .btn-primary {
+                            background-color: map-get($colores, violeta);
+                            border-color: map-get($colores, violeta);;
+                        }
+                    }
+                }
+            }
+        }
         .contactos__datos {
             background-color: map-get($colores, blanco);
             width: 450px;

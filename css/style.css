@@ -14,11 +14,14 @@
 }
 
 body {
-  background-color: #ffffffd0;
+  background-image: url(/css/images/full-bloom.png);
 }
 
 /* MOBILE */
 @media screen and (max-width: 480px) {
+  body .header .navbar .container-fluid .navbar-brand .header__logo {
+    width: 100px;
+  }
   body .header .navbar .navbar-collapse .navbar-nav .nav-link {
     font-size: 1rem;
   }
@@ -97,7 +100,7 @@ body {
   }
   body .main__servicios .main__servicios-card-1 .main__servicio {
     width: 300px;
-    margin: 5px auto;
+    margin: 15px auto;
   }
   body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-subtitulo {
     font-size: 1rem;
@@ -235,7 +238,7 @@ body {
   }
   body .main__servicios .main__servicios-card-1 .main__servicio {
     width: 380px;
-    margin: 5px auto;
+    margin: 15px auto;
   }
   body .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-subtitulo {
     font-size: 1.2rem;
@@ -953,6 +956,20 @@ body {
   opacity: 90%;
   color: #fff;
 }
+.contactos .contactos__card .modal .modal-dialog .modal-content .modal-header h5 {
+  font-family: "Nunito", sans-serif;
+  color: #463A44;
+  font-size: 1.3rem;
+}
+.contactos .contactos__card .modal .modal-dialog .modal-content .modal-body p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.85rem;
+  color: #463A44;
+}
+.contactos .contactos__card .modal .modal-dialog .modal-content .modal-footer .btn-primary {
+  background-color: #463A44;
+  border-color: #463A44;
+}
 .contactos .contactos__card .contactos__datos {
   background-color: #f5f5f5;
   width: 450px;
@@ -1144,7 +1161,7 @@ body {
 .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-btn {
   display: inline-block;
   background-color: #ce7d35;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: #fff;
   padding: 10px 25px;
@@ -1190,7 +1207,7 @@ body {
 .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-btn {
   display: inline-block;
   background-color: #ce7d35;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: #fff;
   padding: 10px 25px;

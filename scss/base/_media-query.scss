@@ -6,6 +6,13 @@
         
         .header {
             .navbar {
+                .container-fluid {
+                    .navbar-brand {
+                        .header__logo {
+                            width: 100px;
+                        }
+                    }
+                }
                 .navbar-collapse {
                     .navbar-nav {
                         .nav-link {
@@ -159,7 +166,7 @@
             .main__servicios-card-1 {
                 .main__servicio {
                     width: 300px;
-                    margin: 5px auto;
+                    margin: 15px auto;
 
                     .main__servicio-subtitulo {
                         font-size: nth($font-size, 5);
@@ -391,7 +398,7 @@
             .main__servicios-card-1 {
                 .main__servicio {
                     width: 380px;
-                    margin: 5px auto;
+                    margin: 15px auto;
 
                     .main__servicio-subtitulo {
                         font-size: nth($font-size, 4);

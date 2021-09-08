@@ -39,6 +39,9 @@
                 a {
                     text-decoration: none;
                     padding: 0 5px;
+                    &:hover {
+                        opacity: 85%;
+                    }
                 }
             }
         }

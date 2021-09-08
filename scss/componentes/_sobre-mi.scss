@@ -1,4 +1,5 @@
 .sobre-mi {
+    // background-color: map-get($colores, blanco);
     margin: 25px 0;
 
     .sobre-mi__titulo {
@@ -9,9 +10,11 @@
         letter-spacing: 4px;
         color: map-get($colores, rosa);
         margin: 15px;  
+        padding-top: 20px;
     }
 
     .sobre-mi__card {
+        background-color: map-get($colores, blanco);
         // display: flex;
         // flex-wrap: wrap;
         flex-direction: row-reverse;

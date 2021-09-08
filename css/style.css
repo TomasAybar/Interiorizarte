@@ -1166,14 +1166,14 @@ body {
 }
 .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-btn {
   display: inline-block;
-  background-color: #ce7d35;
+  background-color: #463A44;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
-  color: #fff;
+  color: #f5f5f5;
   padding: 10px 25px;
 }
 .main__servicios .main__servicios-card-1 .main__servicio .main__servicio-btn:hover {
-  background-color: #ce7c35ef;
+  background-color: #463a44d2;
   outline: 0.5px solid #00000048;
 }
 .main__servicios .main__servicios-card-2 {
@@ -1212,7 +1212,7 @@ body {
 }
 .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-btn {
   display: inline-block;
-  background-color: #ce7d35;
+  background-color: #463A44;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: #fff;
@@ -1220,7 +1220,7 @@ body {
   margin-bottom: 10px;
 }
 .main__servicios .main__servicios-card-2 .main__servicio .main__servicio-btn:hover {
-  background-color: #ce7c35ef;
+  background-color: #463a44d2;
   outline: 0.5px solid #00000048;
 }
 

@@ -54,16 +54,16 @@
 
             .main__servicio-btn {
                 display: inline-block;
-                background-color: map-get($colores, naranja);
+                background-color: map-get($colores, violeta);
                 font-family: $parrafo;
                 text-decoration: none;
-                color: #fff;
+                color: map-get($colores, blanco);
                 padding: 10px 25px;
 
                 &:hover {
                     // background-color: #EDFFD9;
                     // transition: 2s;
-                    background-color: #ce7c35ef;
+                    background-color: #463a44d2;
                     outline: .5px solid #00000048;
                 }
             }
@@ -112,7 +112,7 @@
 
             .main__servicio-btn {
                 display: inline-block;
-                background-color: map-get($colores, naranja);
+                background-color: map-get($colores, violeta);
                 font-family: $parrafo;
                 text-decoration: none;
                 // font-size: nth($font-size, 6);
@@ -123,7 +123,7 @@
                 &:hover {
                     // background-color: #EDFFD9;
                     // transition: 2s;
-                    background-color: #ce7c35ef;
+                    background-color: #463a44d2;
                     outline: .5px solid #00000048;
                 }
             }

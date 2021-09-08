@@ -700,7 +700,7 @@ body {
   display: inline-block;
 }
 .header .navbar .navbar-collapse .navbar-nav .nav-link {
-  color: #857A58;
+  color: #7f7554;
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -710,7 +710,7 @@ body {
   color: #ce7d35;
 }
 .header .navbar .navbar-collapse .navbar-nav .dropdown-item {
-  color: #857A58;
+  color: #7f7554;
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
   font-size: 1rem;
